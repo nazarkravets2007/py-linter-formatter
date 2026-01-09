@@ -21,4 +21,3 @@ def format_linter_report(linter_report: dict) -> list:
         format_single_linter_file(file_path, linter_report[file_path])
         for file_path in sorted(linter_report)
     ]
-
